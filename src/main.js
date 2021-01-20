@@ -1,9 +1,11 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-import BaseCard from './components/BaseItens/BaseCard.vue'
+import BaseCard from "./components/BaseItens/BaseCard.vue";
+import BaseButton from "./components/BaseItens/BaseButton.vue";
 
-const app = createApp(App)
+const app = createApp(App);
 
-app.component('base-card', BaseCard)
-app.mount('#app')
+app.component("base-card", BaseCard);
+app.component("base-button", BaseButton);
+app.mount("#app");
