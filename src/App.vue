@@ -1,26 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <header-titles mainTitle="Aqui vai o título">Titulo</header-titles>
+  <the-resource></the-resource>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderTitles from './components/HeaderTitles.vue'
+import TheResource from './components/TheResource.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: {HeaderTitles, TheResource}
+  
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
