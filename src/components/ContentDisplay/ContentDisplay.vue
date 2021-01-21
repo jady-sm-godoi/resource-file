@@ -2,16 +2,12 @@
   <div>
     <base-card>
       <template #default>
-        <ul>
-          <li>
-            <header>
-              <h3>{{ resource.title }}</h3>
-              <base-button>Delete</base-button>
-            </header>
-            <p>{{ resource.text }}</p>
-            <a>{{ resource.source }}</a>
-          </li>
-        </ul>
+        <header>
+          <h3>{{ resource.title }}</h3>
+          <base-button>Delete</base-button>
+        </header>
+        <p>{{ resource.text }}</p>
+        <a>{{ resource.source }}</a>
       </template>
     </base-card>
   </div>
